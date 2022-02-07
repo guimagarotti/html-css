@@ -1,0 +1,133 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family: 'Android';
+    src: url('../fontes/idroid.otf') format('opentype');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+:root {
+    --cor1: #C5EBD6;
+    --cor2: #83E1AD;
+    --cor3: #3DDC84;
+    --cor4: #2FA866;
+    --cor5: #1A5C37;
+    --cor6: #063D1E;
+    --font-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --font-destaque: 'Bebas Neue', 'cursive', monospace, sans-serif;
+    --font-android: 'Android', 'cursive';
+}
+
+body {
+    background-color: #C5EBD6;
+}
+
+header {
+    background-image: linear-gradient(to top, var(--cor6), var(--cor4));
+    min-height: 150px;
+    font-family:var(--font-destaque);
+    box-shadow: 0px 2px 6px black;
+}
+
+header h1 {
+    color: white;
+    text-align: center;
+    font-family:var(--font-destaque);
+    font-size: 1.8em;
+    padding: 15px;
+    font-weight: normal;
+    text-shadow: 3px 2px 4px black;
+}
+
+header p {
+    color: white;
+    padding: 15px;
+    font-family:var(--font-padrao);
+    font-weight: normal;
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+    font-size: 1.2em;
+    text-shadow: 3px 2px 4px black;
+}
+
+nav {
+    padding: 10px;
+    font-family:var(--font-padrao);
+    max-width: 500px;
+    text-shadow: 1px 1px 1px black;
+}
+
+nav a {
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+    font-family:var(--font-destaque);
+    font-weight: normal;
+}
+
+nav a:hover {
+    background-color: var(--cor4);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold; 
+}
+
+main {
+    background-color: white;
+    min-width: 320px;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 2px 2px 8px black;
+}
+
+main h1 {
+    font-family:var(--font-android);
+    padding: 5px;
+    color:var(--cor5);
+}
+
+main h2 {
+    font-family:var(--font-android);
+    background-image:linear-gradient(to right, var(--cor2), transparent);
+    margin: 10px;
+    padding-left: 8px;
+    font-weight: normal;
+    color: var(--cor5);
+}
+
+main p {
+    text-align: justify;
+    font-family:var(--font-padrao);
+    text-indent: 20px;
+    line-height: 1.2em;
+    padding: 8px;
+}
+
+main img {
+    width: 100%;
+}
+
+main img#pequena {
+    max-width: 350px;
+    margin: auto;
+    display: block;
+}
+
+strong {
+    color:var(--cor5);
+    font-weight: bold;
+}
+
+

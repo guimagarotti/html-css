@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+body {
+    background-color: lightgray;
+    padding: 5px;
+    margin: 5px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header {
+    background-color: white; 
+    padding: 10px;
+    margin: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 15px;
+    border: 3px dashed green;
+}
+
+nav {
+    background-color: rgba(18, 201, 49, 0.664);
+    width: 150px;
+    box-shadow: 3px 2px 5px 1px rgba(0, 0, 0, 0.507);
+}
+
+nav > a {
+    color: red;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav > a:hover {
+    color: blue;
+}
+
+main {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 5px;
+    padding: 10px;
+    border: 4px dotted green;
+    border-radius: 15px 0px;
+}
+
+.brasil {
+    background-color: black;
+    color: white;
+    padding: 3px;
+    margin: 5px;
+    border-radius: 15px;
+}
+
+aside {
+    background-color: gray;
+    width: 200px;
+}
+
+.futebol {
+    background-color: gray;
+    color: white;
+    padding: 3px;
+    margin: 5px;
+    box-shadow: 6px 4px 7px 2px rgba(0, 0, 0, 0.671);
+    border-radius: 15px;
+}
+
+footer {
+    color: white;
+    background-color: tomato;
+    width: 300px;
+    text-align: center;
+    padding: 3px;
+    margin: auto;
+}
+
+footer > p {
+    margin: 0px;
+}
+
+div#bola {
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    margin: 35px;
+    border-radius: 200px;
+}
+
