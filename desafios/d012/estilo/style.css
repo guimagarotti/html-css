@@ -1,0 +1,114 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    min-height: 100vh;
+    background-color: gray;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header > h1 {
+    font-family: 'Passion One', 'cursive';
+    font-weight: normal;
+    font-size: 9vw;
+    padding-top: 50px;
+    font-variant: small-caps;
+}
+
+header > p {
+    font-family: Verdana, Tahoma, sans-serif;
+    font-weight: lighter;
+    font-size: 1em;
+    padding-bottom: 50px;
+}
+
+header > p > a {
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+header > p > a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+    font-size: 3.5vw;
+    line-height: 2em;
+}
+
+section > p {
+    padding-bottom: 2em;
+}
+
+section.branco {
+    background-color: white;
+    color: black;
+    font-family: 'Sriracha', sans-serif;
+}
+
+section.foto1 {
+    background-image: url('../imagens/background001.jpg');
+    background-color: gray;
+    background-size: cover;
+    background-position: right center;
+    background-attachment: fixed;
+    box-shadow: inset 6px 6px 13px 0px black;
+}
+    
+section.foto2 {
+    background-image: url('../imagens/background002.jpg');
+    background-color: gray;
+    background-size: cover;
+    background-position: right center;
+    background-attachment: fixed;
+    box-shadow: inset 6px 6px 13px 0px black;
+}
+
+section > p.container {
+    background-color: rgba(0, 0, 0, 0.425);
+    color: white;
+    font-family: 'Sriracha', sans-serif;
+    padding: 5px;
+    text-shadow: 3px 2px 5px black;
+    display: inline-block;
+}
+
+footer {
+    background-color: black;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+
+footer > p {
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 1em;
+    font-weight: lighter;
+}
+
+footer > p a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+footer > p a:hover {
+    text-decoration: underline;
+    color: white;
+}
