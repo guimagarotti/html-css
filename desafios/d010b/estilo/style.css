@@ -172,6 +172,7 @@ aside ul {
     padding: 10px 10px 10px 20px;
     line-height: 1.2em;
     font-family: var(--font-padrao);
+    text-align: justify;
 }
 
 footer {
