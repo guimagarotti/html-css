@@ -34,16 +34,6 @@ header > p {
     padding-bottom: 50px;
 }
 
-header > p > a {
-    font-weight: bold;
-    text-decoration: none;
-    color: white;
-}
-
-header > p > a:hover {
-    text-decoration: underline;
-}
-
 section {
     padding-top: 10vh;
     padding-bottom: 10vh;
@@ -62,22 +52,20 @@ section.branco {
     font-family: 'Sriracha', sans-serif;
 }
 
-section.foto1 {
-    background-image: url('../imagens/background001.jpg');
+section.imagem {
     background-color: gray;
     background-size: cover;
     background-position: right center;
     background-attachment: fixed;
     box-shadow: inset 6px 6px 13px 0px black;
 }
-    
-section.foto2 {
+
+#img01 {
+    background-image: url('../imagens/background001.jpg');
+}
+
+#img02 {
     background-image: url('../imagens/background002.jpg');
-    background-color: gray;
-    background-size: cover;
-    background-position: right center;
-    background-attachment: fixed;
-    box-shadow: inset 6px 6px 13px 0px black;
 }
 
 section > p.container {
@@ -102,13 +90,12 @@ footer > p {
     font-weight: lighter;
 }
 
-footer > p a {
+a {
+    color: white;
     text-decoration: none;
     font-weight: bold;
-    color: white;
 }
 
-footer > p a:hover {
+a:hover {
     text-decoration: underline;
-    color: white;
 }
