@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: arial, helvetica, sans-serif;            
+        }
+
+        table {
+            height: 250px;
+            width: 300px;
+            border-collapse: collapse;
+        }
+        
+        td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+
+        td.linha {
+            vertical-align: top;
+            text-align: center;
+        }
+
+        td.linha2 {
+            vertical-align: bottom;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <h1>Primeira Tabela</h1>
+    <table>
+        <tr>
+            <td class="linha">A1</td>
+            <td>B1</td>
+            <td class="linha2">C1</td>
+        </tr>
+        <tr>
+            <td>A2</td>
+            <td class="linha2">B2</td>
+            <td>C2</td>
+        </tr>
+        <tr>
+            <td class="linha2">A3</td>
+            <td>B3</td>
+            <td class="linha">C3</td>
+        </tr>
+        <tr>
+            <td>A4</td>
+            <td class="linha">B4</td>
+            <td>C4</td>
+        </tr>
+    </table>
+</body>
+</html>
