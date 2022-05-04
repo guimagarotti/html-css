@@ -1,4 +1,4 @@
-# html-css
-Curso HTML5 e CSS3 realizado com o professor Guanabara.
+# Curso de HTML5 + CSS3.
+## Curso HTML5 e CSS3 realizado no Canal CursoemVideo.
 
-Agora estou realizando a modificação de meus repositórios.
+
